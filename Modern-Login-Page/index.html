@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Login Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="form-blob">
+          <img
+            src="./assets/images/blob.svg"
+            alt="blob"
+            class="blob-image blog-image-1"
+          />
+          <img
+            src="./assets/images/blob.svg"
+            alt="blob"
+            class="blob-image blog-image-2"
+          />
+          <img
+            src="./assets/images/blob.svg"
+            alt="blob"
+            class="blob-image blog-image-3"
+          />
+        </div>
+
+        <div class="form-header">
+          <p>لطفا اطلاعات خود را وارد کنید</p>
+          <h1>خوش آمدید</h1>
+        </div>
+        <form class="form-box">
+          <div class="input-group">
+            <input
+              type="text"
+              id="email-i"
+              class="input-field"
+              placeholder=""
+              required
+            />
+            <label for="email-i" class="floating-label">آدرس ایمیل</label>
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              id="pass-i"
+              class="input-field"
+              placeholder=""
+              required
+            />
+            <label for="pass-i" class="floating-label">پسورد</label>
+            <div class="eye-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-eye-icon lucide-eye"
+              >
+                <path
+                  d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+                />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </div>
+          </div>
+          <div class="input-group checkbox-group">
+            <div class="form-col remember-me">
+              <input
+                type="checkbox"
+                id="remember-me-checkbox"
+                class="checkbox-field"
+              />
+              <label for="remember-me-checkbox">بخاطر بسپار</label>
+            </div>
+            <div class="form-col">
+              <a href="#" class="form-link">فراموش کردن پسورد</a>
+            </div>
+          </div>
+          <button type="submit" class="form-btn form-btn__submit">
+            وارد شدن
+          </button>
+        </form>
+        <div class="form-divider">
+          <p>یا</p>
+        </div>
+        <div class="form-bottom">
+          <div class="form-social">
+            <button class="form-btn form-btn__social">
+              <img
+                src="./assets/images/google.svg"
+                class="btn-icon"
+                alt="google"
+              />
+            </button>
+            <button class="form-btn form-btn__social">
+              <img
+                src="./assets/images/facebook.svg"
+                class="btn-icon"
+                alt="google"
+              />
+            </button>
+            <button class="form-btn form-btn__social">
+              <img
+                src="./assets/images/apple.svg"
+                class="btn-icon"
+                alt="google"
+              />
+            </button>
+          </div>
+          <p>اکانت ندارید؟ <a href="#" class="form-link">ثبت نام کنید</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
