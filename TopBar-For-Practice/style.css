@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/Estedad-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/Estedad-bo4.woff2") format("woff2");
+  font-weight: bold;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ececec;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #ababab66;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1.5rem;
+.logo-section {
+  font-family: sans-serif;
+  font-weight: bolder;
+  align-items: center;
+}
+.logo-section a {
+  color: #555;
+  text-decoration: none;
+}
+.logo-section span {
+  color: royalblue;
+}
+.nav-section ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1rem;
+  text-align: center;
+  font-family: vazir;
+  font-size: 0.9rem;
+}
+.nav-section a {
+  text-decoration: none;
+  color: #555;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-section ul li:first-child{
+    background-color: royalblue;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10rem;
+}
+.nav-section ul li:first-child a{
+    color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  color: royalblue;
+}
+.size-6 {
+  width: 18px;
+  transition: all 0.3s ease;
+}
+.size-6:hover {
+color: darkblue;
+transform: scale(1.1);
+}
+img{
+    width: 38px;
+    border-radius: 100%;
+    border: 3px solid royalblue;
+    transition: all 0.3s ease;
+}
+img:hover{
+    border: 4px solid royalblue;
+    transform: scale(1.1);
+}
+.status{
+    background-color: rgba(0, 255, 64, 0.088);
+font-family: sans-serif;
+font-size: 0.8rem;
+padding: 0.3rem 0.7rem;
+border-radius: 10rem;
+color: rgb(1, 150, 38);
+}
